@@ -14,7 +14,7 @@
       "_id": 0,
       "faction": "NF",
       "unique": false,
-      "strength": 2,
+      "strength": 4,
       "row": "range",
       "ability": null
     },
@@ -24,7 +24,7 @@
       "_id": 1,
       "faction": "M",
       "unique": false,
-      "strength": 4,
+      "strength": 2,
       "row": "close",
       "ability": "muster"
     },
@@ -34,7 +34,7 @@
       "_id": 2,
       "faction": "M",
       "unique": false,
-      "strength": 6,
+      "strength": 5,
       "row": "siege",
       "ability": "muster"
     },
@@ -54,7 +54,7 @@
       "_id": 4,
       "faction": "NR",
       "unique": false,
-      "strength": 6,
+      "strength": 3,
       "row": "siege",
       "ability": null
     },
@@ -64,17 +64,17 @@
       "_id": 5,
       "faction": "SC",
       "unique": false,
-      "strength": 6,
+      "strength": 4,
       "row": "close_range",
       "ability": null
     },
     {
-      "_idstr": "black_infantry_archer_2",
-      "name": "Black Infantry Archer 2",
+      "_idstr": "ard_feainn_crossbowman",
+      "name": "Ard Feainn Crossbowman",
       "_id": 6,
       "faction": "NF",
       "unique": false,
-      "strength": 10,
+      "strength": 3,
       "row": "range",
       "ability": null
     },
@@ -92,39 +92,39 @@
       "_idstr": "botchling",
       "name": "Botchling",
       "_id": 8,
-      "faction": "M",
+      "faction": "NR",
       "unique": false,
-      "strength": 4,
+      "strength": 5,
       "row": "close",
       "ability": null
     },
     {
-      "_idstr": "bovine_defense_force",
-      "name": "Bovine Defense Force",
+      "_idstr": "chort",
+      "name": "Chort",
       "_id": 9,
       "faction": "N",
       "unique": false,
-      "strength": 8,
+      "strength": 10,
       "row": "close",
       "ability": null
     },
     {
-      "_idstr": "cahir_mawr_dyffryn_aep_ceallach",
-      "name": "Cahir Mawr Dyffryn aep Ceallach",
+      "_idstr": "cahir_dyffryn",
+      "name": "Cahir Dyffryn",
       "_id": 10,
       "faction": "NF",
       "unique": false,
-      "strength": 6,
+      "strength": 7,
       "row": "close",
       "ability": null
     },
     {
-      "_idstr": "catapult_1",
-      "name": "Catapult 1",
+      "_idstr": "reinforced_trebuchet",
+      "name": "Reinforced Trebuchet",
       "_id": 11,
       "faction": "NR",
       "unique": false,
-      "strength": 8,
+      "strength": 4,
       "row": "siege",
       "ability": "tight_bond"
     },
@@ -134,7 +134,7 @@
       "_id": 12,
       "faction": "M",
       "unique": false,
-      "strength": 2,
+      "strength": 5,
       "row": "close_range",
       "ability": null
     },
@@ -144,7 +144,7 @@
       "_id": 13,
       "faction": "SC",
       "unique": false,
-      "strength": 3,
+      "strength": 5,
       "row": "close_range",
       "ability": null
     },
@@ -154,7 +154,7 @@
       "_id": 14,
       "faction": "N",
       "unique": true,
-      "strength": 15,
+      "strength": 4,
       "row": "close",
       "ability": null
     },
@@ -174,23 +174,23 @@
       "_id": 16,
       "faction": "N",
       "unique": false,
-      "strength": 0,
+      "strength": 1,
       "row": "range",
       "ability": null
     },
     {
-      "_idstr": "crinfrid_reavers_dragon_hunter_3",
-      "name": "Crinfrid Reavers Dragon Hunter 3",
+      "_idstr": "tridam_infantry",
+      "name": "Tridam Infantry",
       "_id": 17,
       "faction": "NR",
       "unique": false,
-      "strength": 5,
+      "strength": 4,
       "row": "range",
       "ability": "tight_bond"
     },
     {
-      "_idstr": "crone_brewess",
-      "name": "Crone Brewess",
+      "_idstr": "brewess",
+      "name": "Brewess",
       "_id": 18,
       "faction": "M",
       "unique": false,
@@ -199,8 +199,8 @@
       "ability": "muster"
     },
     {
-      "_idstr": "crone_weavess",
-      "name": "Crone Weavess",
+      "_idstr": "weavess",
+      "name": "Weavess",
       "_id": 19,
       "faction": "M",
       "unique": false,
@@ -209,8 +209,8 @@
       "ability": "muster"
     },
     {
-      "_idstr": "crone_whispess",
-      "name": "Crone Whispess",
+      "_idstr": "whispess",
+      "name": "Whispess",
       "_id": 20,
       "faction": "M",
       "unique": false,
@@ -224,7 +224,7 @@
       "_id": 21,
       "faction": "NF",
       "unique": false,
-      "strength": 4,
+      "strength": 6,
       "row": "range",
       "ability": null
     },
@@ -232,9 +232,9 @@
       "_idstr": "dandelion_1",
       "name": "Dandelion 1",
       "_id": 22,
-      "faction": "N",
+      "faction": "NR",
       "unique": false,
-      "strength": 2,
+      "strength": 6,
       "row": "close",
       "ability": "commander_horn"
     },
@@ -244,7 +244,7 @@
       "_id": 23,
       "faction": "SC",
       "unique": false,
-      "strength": 6,
+      "strength": 7,
       "row": "close",
       "ability": null
     },
@@ -264,37 +264,37 @@
       "_id": 25,
       "faction": "SC",
       "unique": false,
-      "strength": 4,
+      "strength": 2,
       "row": "range",
       "ability": null
     },
     {
-      "_idstr": "dol_blathanna_scout_1",
-      "name": "Dol Blathanna Scout 1",
+      "_idstr": "dol_blathanna_sentry",
+      "name": "Dol Blathanna Sentry",
       "_id": 26,
       "faction": "SC",
       "unique": false,
-      "strength": 6,
+      "strength": 4,
       "row": "close_range",
       "ability": null
     },
     {
-      "_idstr": "draug",
-      "name": "Draug",
+      "_idstr": "golyat",
+      "name": "Golyat",
       "_id": 27,
       "faction": "M",
       "unique": true,
-      "strength": 10,
+      "strength": 12,
       "row": "close",
       "ability": null
     },
     {
-      "_idstr": "dun_banner_medic",
-      "name": "Dun Banner Medic",
+      "_idstr": "dun_banner",
+      "name": "Dun Banner",
       "_id": 28,
       "faction": "NR",
       "unique": false,
-      "strength": 5,
+      "strength": 3,
       "row": "siege",
       "ability": "medic"
     },
@@ -304,17 +304,17 @@
       "_id": 29,
       "faction": "SC",
       "unique": false,
-      "strength": 3,
+      "strength": 1,
       "row": "close",
       "ability": "muster"
     },
     {
-      "_idstr": "earth_elemental",
-      "name": "Earth Elemental",
+      "_idstr": "old_speartip",
+      "name": "Old Speartip",
       "_id": 30,
       "faction": "M",
       "unique": false,
-      "strength": 6,
+      "strength": 12,
       "row": "siege",
       "ability": null
     },
@@ -329,8 +329,8 @@
       "ability": null
     },
     {
-      "_idstr": "elven_skirmisher_1",
-      "name": "Elven Skirmisher 1",
+      "_idstr": "dol_blathanna_bowman",
+      "name": "Dol Blathanna Bowman",
       "_id": 32,
       "faction": "SC",
       "unique": false,
@@ -359,8 +359,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "emhyr_var_emreis_invader_of_the_north",
-      "name": "Emhyr var Emreis Invader of The North",
+      "_idstr": "fergus_var_emreis",
+      "name": "Fergus var Emreis",
       "_id": 35,
       "faction": "NF",
       "unique": null,
@@ -369,8 +369,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "emhyr_var_emreis_the_relentless",
-      "name": "Emhyr var Emreis the Relentless",
+      "_idstr": "torres_var_emreis_founder",
+      "name": "Torres var Emreis Founder",
       "_id": 36,
       "faction": "NF",
       "unique": null,
@@ -379,8 +379,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "emhyr_var_emreis_the_white_flame",
-      "name": "Emhyr var Emreis the White Flame",
+      "_idstr": "torres_var_emreis_highest_priest",
+      "name": "Torres var Emreis Highest Priest",
       "_id": 37,
       "faction": "NF",
       "unique": null,
@@ -419,8 +419,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "eredin_bringer_of_death",
-      "name": "Eredin Bringer of Death",
+      "_idstr": "auberon_king",
+      "name": "Auberon King",
       "_id": 41,
       "faction": "M",
       "unique": null,
@@ -429,8 +429,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "eredin_commander_of_the_red_riders",
-      "name": "Eredin Commander of the Red Riders",
+      "_idstr": "keltullis",
+      "name": "Keltullis",
       "_id": 42,
       "faction": "M",
       "unique": null,
@@ -439,8 +439,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "eredin_destroyer_of_worlds",
-      "name": "Eredin Destroyer of Worlds",
+      "_idstr": "dagon_promised",
+      "name": "Dagon Promised",
       "_id": 43,
       "faction": "M",
       "unique": null,
@@ -449,8 +449,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "eredin_king_of_the_wild_hunt",
-      "name": "Eredin King of the Wild Hunt",
+      "_idstr": "king_chrum",
+      "name": "King Chrum",
       "_id": 44,
       "faction": "M",
       "unique": null,
@@ -459,22 +459,22 @@
       "ability": "leader"
     },
     {
-      "_idstr": "esterad_thyssen",
-      "name": "Esterad Thyssen",
+      "_idstr": "radovid_judgment",
+      "name": "Radovid Judgment",
       "_id": 45,
       "faction": "NR",
       "unique": true,
-      "strength": 10,
+      "strength": 6,
       "row": "close",
       "ability": null
     },
     {
-      "_idstr": "etolian_auxiliary_archers_1",
-      "name": "Etolian Auxiliary Archers 1",
+      "_idstr": "ard_feainn_light_cavalry",
+      "name": "Ard Feainn Light Cavalry",
       "_id": 46,
       "faction": "NF",
       "unique": false,
-      "strength": 1,
+      "strength": 3,
       "row": "range",
       "ability": "medic"
     },
@@ -484,7 +484,7 @@
       "_id": 47,
       "faction": "M",
       "unique": false,
-      "strength": 6,
+      "strength": 8,
       "row": "close",
       "ability": null
     },
@@ -494,17 +494,17 @@
       "_id": 48,
       "faction": "SC",
       "unique": false,
-      "strength": 6,
+      "strength": 4,
       "row": "close_range",
       "ability": null
     },
     {
-      "_idstr": "fire_elemental",
-      "name": "Fire Elemental",
+      "_idstr": "draug",
+      "name": "Draug",
       "_id": 49,
-      "faction": "M",
+      "faction": "NR",
       "unique": false,
-      "strength": 6,
+      "strength": 7,
       "row": "siege",
       "ability": null
     },
@@ -514,7 +514,7 @@
       "_id": 50,
       "faction": "M",
       "unique": false,
-      "strength": 2,
+      "strength": 4,
       "row": "siege",
       "ability": null
     },
@@ -529,8 +529,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "foltest_lord_commander_of_the_north",
-      "name": "Foltest Lord Commander of the North",
+      "_idstr": "melitele",
+      "name": "Melitele",
       "_id": 52,
       "faction": "NR",
       "unique": null,
@@ -539,8 +539,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "foltest_son_of_medell",
-      "name": "Foltest Son of Medell",
+      "_idstr": "king_demavend_iii",
+      "name": "King Demavend III",
       "_id": 53,
       "faction": "NR",
       "unique": null,
@@ -549,8 +549,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "foltest_the_siegemaster",
-      "name": "Foltest the Siegemaster",
+      "_idstr": "king_henselt",
+      "name": "King Henselt",
       "_id": 54,
       "faction": "NR",
       "unique": null,
@@ -559,8 +559,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "foltest_the_steel_forged",
-      "name": "Foltest the Steel-Forged",
+      "_idstr": "king_radovid_v",
+      "name": "King Radovid V",
       "_id": 55,
       "faction": "NR",
       "unique": null,
@@ -574,7 +574,7 @@
       "_id": 56,
       "faction": "M",
       "unique": false,
-      "strength": 5,
+      "strength": 4,
       "row": "close",
       "ability": null
     },
@@ -589,8 +589,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "francesca_findabair_hope_of_the_aen_seidhe",
-      "name": "Francesca Findabair Hope of the Aen Seidhe",
+      "_idstr": "dana_meadbh_provider",
+      "name": "Dana Meadbh Provider",
       "_id": 58,
       "faction": "SC",
       "unique": null,
@@ -599,8 +599,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "francesca_findabair_pureblood_elf",
-      "name": "Francesca Findabair Pureblood Elf",
+      "_idstr": "aucwenn",
+      "name": "Aucwenn",
       "_id": 59,
       "faction": "SC",
       "unique": null,
@@ -609,8 +609,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "francesca_findabair_queen_of_dol_blathanna",
-      "name": "Francesca Findabair Queen of Dol Blathanna",
+      "_idstr": "simlas_finn_aep_dabairr",
+      "name": "Simlas Finn aep Dabairr",
       "_id": 60,
       "faction": "SC",
       "unique": null,
@@ -619,8 +619,8 @@
       "ability": "leader"
     },
     {
-      "_idstr": "francesca_findabair_the_beautiful",
-      "name": "Francesca Findabair the Beautiful",
+      "_idstr": "saskia_commander",
+      "name": "Saskia Commander",
       "_id": 61,
       "faction": "SC",
       "unique": null,
@@ -634,7 +634,7 @@
       "_id": 62,
       "faction": "M",
       "unique": false,
-      "strength": 5,
+      "strength": 12,
       "row": "close",
       "ability": null
     },
@@ -644,17 +644,17 @@
       "_id": 63,
       "faction": "NF",
       "unique": false,
-      "strength": 6,
+      "strength": 4,
       "row": "range",
       "ability": null
     },
     {
-      "_idstr": "gargoyle",
-      "name": "Gargoyle",
+      "_idstr": "slyzard",
+      "name": "Slyzard",
       "_id": 64,
       "faction": "M",
       "unique": false,
-      "strength": 2,
+      "strength": 4,
       "row": "range",
       "ability": null
     },
@@ -664,17 +664,17 @@
       "_id": 65,
       "faction": "N",
       "unique": false,
-      "strength": 4,
+      "strength": 6,
       "row": "range",
       "ability": "muster"
     },
     {
-      "_idstr": "gaunter_odimm_darkness_1",
-      "name": "Gaunter ODimm Darkness 1",
+      "_idstr": "renfri",
+      "name": "Renfri",
       "_id": 66,
       "faction": "N",
       "unique": false,
-      "strength": 2,
+      "strength": 5,
       "row": "siege",
       "ability": "muster"
     },
@@ -682,9 +682,9 @@
       "_idstr": "geralt_of_rivia_1",
       "name": "Geralt of Rivia 1",
       "_id": 67,
-      "faction": "N",
+      "faction": "NR",
       "unique": true,
-      "strength": 15,
+      "strength": 13,
       "row": "close",
       "ability": null
     },
@@ -694,17 +694,17 @@
       "_id": 68,
       "faction": "M",
       "unique": false,
-      "strength": 1,
+      "strength": 2,
       "row": "close",
       "ability": "muster"
     },
     {
-      "_idstr": "grave_hag",
-      "name": "Grave Hag",
+      "_idstr": "alp",
+      "name": "Alp",
       "_id": 69,
       "faction": "M",
       "unique": false,
-      "strength": 5,
+      "strength": 4,
       "row": "range",
       "ability": null
     },
@@ -714,7 +714,7 @@
       "_id": 70,
       "faction": "M",
       "unique": false,
-      "strength": 5,
+      "strength": 9,
       "row": "close",
       "ability": null
     },
@@ -724,7 +724,7 @@
       "_id": 71,
       "faction": "M",
       "unique": false,
-      "strength": 2,
+      "strength": 6,
       "row": "close_range",
       "ability": null
     },
