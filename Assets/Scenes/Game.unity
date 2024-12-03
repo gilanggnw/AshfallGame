@@ -1902,6 +1902,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3603910812218655444, guid: ba295f2b0601cfb41b597655ecb0a308,
+        type: 3}
+      propertyPath: m_text
+      value: Hold to pass
+      objectReference: {fileID: 0}
+    - target: {fileID: 3603910812218655444, guid: ba295f2b0601cfb41b597655ecb0a308,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5252514711158672333, guid: ba295f2b0601cfb41b597655ecb0a308,
         type: 3}
       propertyPath: onLongClick.m_PersistentCalls.m_Calls.Array.size
