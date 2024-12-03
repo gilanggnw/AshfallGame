@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: UserSina
-  productName: GwentLegacy
+  companyName: AshesWillFall
+  productName: Ashfall
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -277,7 +277,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: e0adf915154b1804ea1722ea1c9cc66b, type: 3}
+      m_Icon: {fileID: 2800000, guid: e9ee9ae50b1443142a917457ccb03b74, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
