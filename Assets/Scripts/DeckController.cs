@@ -520,6 +520,7 @@ public class DeckController : MonoBehaviour
     }
 
     //--------To Main Menu
+    [SerializeField]
     public void ToMainMenu()
     {
         SceneManager.LoadScene(0);
