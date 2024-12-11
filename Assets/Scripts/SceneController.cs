@@ -6,6 +6,7 @@ using System.Linq;
 using UnityEngine.UI;
 using System.IO;
 using UnityEngine.SceneManagement;
+using DialogueEditor;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, ROUNDOVER, WON, LOST, DRAW }
 
@@ -45,31 +46,69 @@ public class SceneController : MonoBehaviour
     public bool swapActivated;
 
     private AIManager AIManager;
+    [SerializeField] private NPCConversation startingDialogue;
+    private bool dialogueFinished = false;
 
     private void Start()
     {
-        PlayerDeck = Path.Combine(Application.streamingAssetsPath, "player_default.json");
+        // Initialize game state
+        battleState = BattleState.START;
 
-        // Get Player Deck
+        // Start with dialogue sequence
+        StartCoroutine(GameStartSequence());
+    }
+
+    private IEnumerator GameStartSequence()
+    {
+        // Wait for dialogue if it exists
+        if (startingDialogue != null)
+        {
+            Debug.Log("Starting dialogue sequence...");
+            ConversationManager.Instance.StartConversation(startingDialogue);
+
+            // Wait for dialogue to complete
+            ConversationManager.OnConversationEnded += OnDialogueFinished;
+            while (!dialogueFinished)
+            {
+                yield return null;
+            }
+            ConversationManager.OnConversationEnded -= OnDialogueFinished;
+        }
+
+        // Initialize game components
+        Debug.Log("Initializing game...");
+        InitializeGame();
+    }
+
+    private void InitializeGame()
+    {
+        // Initialize deck paths
+        PlayerDeck = Path.Combine(Application.streamingAssetsPath, "player_default.json");
         if (!string.IsNullOrEmpty(ApplicationModel.playerDeckPath))
             PlayerDeck = ApplicationModel.playerDeckPath;
 
-        Debug.Log("Deck path from scene controller: " + PlayerDeck);
+        // Setup player info
         PlayerInfo.Name = "Player";
         EnemyInfo.Name = "Opponent";
 
         // Initialize AI
         AIManager = GetComponent<AIManager>();
+        if (AIManager == null)
+        {
+            Debug.LogError("AIManager component missing!");
+        }
 
-        // Setup the battle
-        Debug.Log("Starting battle...");
+        // Start battle
+        Debug.Log("Starting battle sequence...");
         battleState = BattleState.START;
         SetupBattle();
-
-        Debug.Log("Waiting for all players de redraw cards: ");
-
-        // TODO: Replace with a proper FirstTurnPicker() method which takes Scoiatel faction in mind
         StartCoroutine(FirstTurnPicker());
+    }
+
+    private void OnDialogueFinished()
+    {
+        Debug.Log("Dialogue finished");
+        dialogueFinished = true;
     }
 
     void Update()
@@ -428,7 +467,7 @@ public class SceneController : MonoBehaviour
                 break;
             case "enemy":
                 if (EnemyInfo.Faction == "NR")
-                    DrawCards(1, EnemyInfo.DeckList, EnemyInfo.HandList, EnemyInfo.DeckBSprite, true);
+                    DrawCards(1, EnemyInfo.DeckList, EnemyInfo.HandList, PlayerInfo.DeckBSprite, true);
                 break;
             default:
                 Debug.LogError("PrepareNextRound(): Unexpected Error: " + round_winner);
@@ -2029,11 +2068,11 @@ public class SceneController : MonoBehaviour
                 {
                     Debug.Log("Scorching: " + card_list[i].name + " | Strength: " + info.MRangeStrength[i]);
                     info.DiscardList.Add(card_list[i]._id);
-                    card_list.RemoveAt(i);
+                    card_list.RemoveAt(i); // Joker 1
                     info.RangeList.RemoveAt(i);
                     info.RangeStrengthL.RemoveAt(i);
                     info.MRangeStrength.RemoveAt(i);
-                    if (initial_count > 0)
+                    if (initial_count > 0) // Joker 2
                         i--;
                 }
             }

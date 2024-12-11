@@ -2064,6 +2064,7 @@ MonoBehaviour:
   randomMedic: 0
   disableLeader: 0
   swapActivated: 0
+  startingDialogue: {fileID: 908728698}
 --- !u!114 &2127944996
 MonoBehaviour:
   m_ObjectHideFlags: 0
