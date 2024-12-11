@@ -7,17 +7,17 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level Picker");
     }
 
     public void EditDeck()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Deck");
     }
 
     public void OpenTutorial()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void QuitGame()
