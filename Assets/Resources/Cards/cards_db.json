@@ -1014,7 +1014,7 @@
       "_id": 100,
       "faction": "NF",
       "unique": false,
-      "strength": 3,
+      "strength": 5,
       "row": "range",
       "ability": null
     },
