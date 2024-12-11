@@ -12,7 +12,7 @@ public class LevelPicker : MonoBehaviour
 
     public void LoadLevel2()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("Level 2 Cutscene");
     }
 
     public void LoadLevel3()

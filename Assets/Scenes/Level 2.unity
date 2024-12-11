@@ -1274,16 +1274,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 2
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":261.5,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello
-    there fellow traveller.","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Odrin","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":260,"yPos":175},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Wassup
-    bisch.","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Godrick","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":-121,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Press
+    To Play","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
   DefaultFont: {fileID: 0}
   NodeSerializedDataList:
   - {fileID: 1610989714}
-  - {fileID: 1610989716}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -1314,7 +1312,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1610989715}
   - component: {fileID: 1610989714}
-  - component: {fileID: 1610989716}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -1339,7 +1336,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 76e0c85c0bcbd8a46ab8f1ef68e7bef0, type: 3}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!4 &1610989715
 Transform:
@@ -1355,25 +1352,6 @@ Transform:
   m_Father: {fileID: 1605096412}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1610989716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610989713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-  NodeID: 1
-  TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 303f53dc86214334a867ac5cae498334, type: 3}
-  Audio: {fileID: 0}
 --- !u!1 &1716941889 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9206754993980214884, guid: a753cdff5a421a349a91e538fbb10e8e,
@@ -1886,6 +1864,7 @@ MonoBehaviour:
   randomMedic: 0
   disableLeader: 0
   swapActivated: 0
+  startingDialogue: {fileID: 0}
 --- !u!114 &2127944996
 MonoBehaviour:
   m_ObjectHideFlags: 0
